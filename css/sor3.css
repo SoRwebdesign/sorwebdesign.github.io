@@ -306,38 +306,41 @@ body {
 @media only screen and (max-width: 600px) {
 	.about{
 		width:90%;
-		height:130vh;
+		height:200%;
 	}
 
-	.stats-count {
-    font-size:20px;
-    line-height: 1;
-	width:100%;
-
-
-}
 	.about-stats {
-		display:flex;
-		flex-direction:row;
-		width:100%;
 		flex-wrap:wrap;
-
-
-	}
-	.stats-col {
-		margin-top:10%;
-		margin-left: 10%;
-		width:35%;
-		padding:0px;
+	margin-top: -20%;
 	}
 
-	.stats-col:nth-child(3) {
-		padding-left:0px;
-		padding-right:0px;
-	}
+
+
 	.stats-col:nth-child(2) {
 		border-right: none;
 	}
+	.stats-col:nth-child(3) {
+		border-right: none;
+		margin-top: -20%;
+		margin-left:4%;
+	}
+
+	.stats-col:nth-child(4) {
+		border-right: none;
+		margin-top: -20%;
+		margin-left:4%;
+		
+	}
+	.stats-count {
+		font-size:20px;
+  
+	}
+	.stats-col h5 {
+		font-size:15px;
+		
+	}
+
+
 
 	
 }
