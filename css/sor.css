@@ -55,7 +55,7 @@
 	text-decoration: none;
 
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:600px) {
     .header {
         height: 90px;
     }
@@ -64,19 +64,17 @@
         left: 30px;
     }
     .menu-toggle {
-        right: 30px;
-		height:3%;
+      
+		height:3.5%;
     }
+
 	.menu-text {
         display: none;
     }
+
 }
 
-@media only screen and (max-width: 400px) {
-    .menu-text {
-        display: none;
-    }
-}
+
 /*NAV SIDEBAR*/
 .nav {
     background: #0C0C0C;
@@ -396,6 +394,9 @@
 	.nav{
 		width:50%;
 	}
+	.nav h3{
+		font-size:8px;
+	}
 	.home-content-button .btn {
         display: block;
         width: 70%;
@@ -404,9 +405,6 @@
     }
 
 }
-
-
-
 
 
 /*HEADERS*/
