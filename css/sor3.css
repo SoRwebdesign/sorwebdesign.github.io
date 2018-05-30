@@ -137,6 +137,9 @@ body {
 	.bottom{
 		flex-direction:column;
 	}
+.box h1{
+	font-size:30px;
+}
 	#box1,#box2,#box3,#box4,#box5,#box6,#box7{
 		width:100%;
 	}
