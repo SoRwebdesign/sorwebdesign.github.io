@@ -1,0 +1,70 @@
+@import url("fonts.css");
+
+body {
+	color:white;
+	font-family: 'Press Start 2P';font-size: 20px;
+	display:flex;
+	flex-direction:column;
+	background-color:black;
+	text-align:center;
+	}
+#choose{
+	font-family: "montserrat-regular", sans-serif;
+}
+.logo-link{
+	width:20%;
+	margin:0 auto;
+}
+.logo-link img{
+		width:100%;
+	}	
+
+.box{
+	display:flex;
+	flex-direction:row;
+	filter: contrast(20%);
+	filter: blur(0.6px);
+	filter: brightness(70%);
+	border: 2px solid black;
+
+}
+.box:hover{
+	cursor:pointer;
+	filter: contrast(100%);
+	filter: blur(0px);
+	filter: brightness(105%);
+}
+.main{
+	display:flex;
+	flex-direction:row;
+	background-color:black;
+}
+#box1{
+	width:33%;
+	height:45vh;
+	font-family: "montserrat-semibold", sans-serif;
+	background-image:url("../images/template_modern.png");
+	background-position:30%50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#box2{
+	width:33%;
+	height:45vh;
+	font-family: 'Press Start 2P';font-size: 20px;
+
+	background-image:url("../images/template_arcade.png");
+	background-position:30%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+#box3{
+	width:33%;
+	height:45vh;
+	background-image:url("../images/city.gif");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
