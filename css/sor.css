@@ -567,27 +567,31 @@
 	}
 	.stats-col {
 		margin-top: -25%;
-		padding:30px;
+		
 		
 	}
 
-	.stats-col:nth-child(3) {
-		padding-left:48px;
-		padding-right:48px;
-	}
+
 	.stats-col:nth-child(2) {
 		border-right: none;
 	}
+	.stats-col:nth-child(3) {
+		border-right: none;
+		margin-left:5%;
+	}
+
 	.stats-col:nth-child(4) {
 		border-right: none;
-		margin-left:4%;
+		margin-left:5%;
 	}
 	.stats-count {
-    font-family: "montserrat-bold", sans-serif;
-    font-size:40px;
-    line-height: 1;
-    color: white;
-}
+		font-size:40px;
+  
+	}
+	.stats-col h5 {
+		font-size:18px;
+		
+	}
 
 
 }
@@ -622,14 +626,15 @@
 	.plot-text img{
 		width:80%;
 	}
-	.plot-text h4{
+	.plot-text div h4{
 		font-size: 12px;
 		width:70%;
-		margin:0 auto;
+		margin:5% auto;
 	
 	}
 	.plot-text {
-		height:48vh;
+		
+		height:55vh;
 	}
 }
 
