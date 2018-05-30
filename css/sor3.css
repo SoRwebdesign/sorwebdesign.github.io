@@ -511,10 +511,11 @@ body {
 @media only screen and (max-width: 600px) {
 	.characters{
 		width:90%;
-		height:150vh;
+		height:100vh;
 		display: flex;
 		flex-direction: row;
 		flex-wrap:wrap;
+		padding-bottom:5%;
 	}
 	.characters #box1{
 		width:45%;
@@ -537,7 +538,7 @@ body {
 		height:50%;
 	}
 	.characters #box4 h1{
-		font-size:25px;
+		font-size:20px;
 		margin-left:5%;
 		
 	}
@@ -659,15 +660,16 @@ body {
 	width:90%;
 	margin: 20px auto;
 	height:70vh;
+	padding-bottom:5%;
 
 	}
 	.itemsWeapons #box1{
 		width:40%;
 	}
 	.itemsWeapons #box1 h1{
-		font-size:20px;
+		font-size:16px;
 		margin-top:40%;
-		margin-left:-78%;
+		margin-left:-80%;
 
 	}
 	.itemsWeapons #box3{
@@ -677,7 +679,7 @@ body {
 		width:125px;
 		height:125px;
 		margin-top:70%;
-		margin-left:7%;
+		margin-left:1%;
 
 	}
 	.itemsWeapons #box3 img{
@@ -688,9 +690,9 @@ body {
 
 	}
 	.itemsWeapons #box3 h1{
-		font-size:20px;
+		font-size:16px;
 		margin-top:40%;
-		margin-left:-88%;
+		margin-left:-90%;
 
 	}
 }
