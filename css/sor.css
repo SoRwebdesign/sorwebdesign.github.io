@@ -627,15 +627,11 @@
 	.plot-text {
 		height:48vh;
 	}
-	}
-	@media only screen and (max-width: 400px) {
-
-	.plot-text img{
-		width:60%;
-	}
+}
 
 
-	}
+
+	
 
 
 /*CHARACTERS */
@@ -799,15 +795,15 @@
 
 }
 	#blaze {
-		margin-left: 10%;
-		width:15.3%;
+		margin-left: 5%;
+		width:25.3%;
 	}
 	#adam {
-		margin-left: 10%;;
-		width:15%;
+		margin-left: 5%;;
+		width:25%;
 	}
 	#axel {
-		width:15%;
+		width:25%;
 		
 }
 	.modal-content{
@@ -954,6 +950,7 @@
 
 /*BOSSES RESPONSIVE*/
 @media only screen and (max-width: 600px) {
+
 	#bosses .home-content-main{
 		margin-top:-60%;
 		margin-left:22%;
@@ -1025,6 +1022,10 @@ margin-top:0.5%;
 		margin-top:2%;
 
 	}
+	.media-content {
+		width:90%;
+
+	}
 }
 
 .community{
@@ -1068,6 +1069,23 @@ margin-top:0.5%;
     font-size: 25px;
 	color:white;
 }
+/*community RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+	.community .headers{
+		padding-top:10%;
+
+	}
+	.community .headers h1 {
+		font-size: 25px;
+		margin-top:2%;
+
+	}
+	.slide p{
+
+    font-size: 20px;
+ 
+}
+
 
 /*FOOTER*/
 footer {
