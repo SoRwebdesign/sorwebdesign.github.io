@@ -515,6 +515,8 @@
 .about-stats {
     text-align: center;
     margin: 0 auto;
+	display:flex;
+	flex-direction: row;
 
 }
 .stats-col {
@@ -547,46 +549,50 @@
 @media only screen and (max-width: 600px) {
     .about {
         padding-top: 5%;
+		
     }
     .about-text{
         font-size: 19px;
 		line-height: 1;
 		height:500px;
+		max-width:90%;
     }
 	.about-text h6{
         font-size: 12px;
 
     }
+	.about-stats {
+		flex-wrap:wrap;
 
+	}
 	.stats-col {
 		margin-top: -25%;
-		padding:40px;
-	}
-
-	.stats-col:nth-child(3) {
-		padding-left:59px;
-		padding-right:59px;
-	}
-	.stats-col:nth-child(2) {
-		border-right: none;
-	}
-
-}
-
-@media only screen and (max-width: 400px) {
-
-
-	.stats-col {
-		margin-top: -15%;
 		padding:30px;
+		
 	}
 
 	.stats-col:nth-child(3) {
 		padding-left:48px;
 		padding-right:48px;
 	}
+	.stats-col:nth-child(2) {
+		border-right: none;
+	}
+	.stats-col:nth-child(4) {
+		border-right: none;
+		margin-left:4%;
+	}
+	.stats-count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size:40px;
+    line-height: 1;
+    color: white;
+}
+
 
 }
+
+
 
 /*PLOT*/
 
@@ -793,15 +799,15 @@
 
 }
 	#blaze {
-		margin-left: 5%;
-		width:25.3%;
+		margin-left: 1%;
+		width:30.3%;
 	}
 	#adam {
-		margin-left: 5%;;
-		width:25%;
+		margin-left: 1%;;
+		width:30%;
 	}
 	#axel {
-		width:25%;
+		width:30%;
 		
 }
 	.modal-content{
