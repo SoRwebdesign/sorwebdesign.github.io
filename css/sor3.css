@@ -223,7 +223,11 @@ body {
 		width:90%;
 	}
 	.plot h4{
-	font-size:16px;
+	font-size:10px;
+}
+.plot img{
+	margin-left:15%;
+	width:70%;
 }
 	.back-box{
 		width:100%;
