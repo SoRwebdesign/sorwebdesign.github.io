@@ -18,25 +18,48 @@
 
 </head>
 <body>
+	<!-- NAV BROWSER -->
+	<nav class="topnav">
+		<ul>
+			<li><a class="smoothscroll"  href="#plot" title="Plot">Plot</a></li>
+			<li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+			<li><a class="smoothscroll"  href="#characters" title="characters">Characters</a></li>
+			<li><a class="smoothscroll"  href="#home"><img id = "logo" src="images/sorlogo.png" alt="home"></a></li>
+			<li><a class="smoothscroll"  href="#items" title="items">Items</a></li>
+			<li><a class="smoothscroll"  href="#media" title="media">Media</a></li>
+			<li><a class="smoothscroll"  href="#community" title="contact">Community</a></li>
+		</ul>
+	</nav>
+	<!-- NAV MOBILE -->
+	 <nav class="nav">
 
-<nav class="topnav">
-	<ul>
-		<li><a class="smoothscroll"  href="#plot" title="Plot">Plot</a></li>
-		<li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-		<li><a class="smoothscroll"  href="#characters" title="characters">Characters</a></li>
-		<li><a class="smoothscroll"  href="#home"><img id = "logo" src="images/sorlogo.png" alt="home"></a></li>
-		<li><a class="smoothscroll"  href="#items" title="items">Items</a></li>
-		<li><a class="smoothscroll"  href="#media" title="media">Media</a></li>
-		<li><a class="smoothscroll"  href="#community" title="contact">Community</a></li>
-	</ul>
-</nav>
-<div class="topnav-mobile">
-	<ul>
-		<li><a class="menu-toggl" href="#0"><span class="fas fa-bars"></span></a></li>
-		<li><a class="smoothscroll"  href="#home"><img id = "logo" src="images/sorlogo.png" alt="home"></a></li>
+            <div class="nav-content">
+                <h3>Navigation</h3> <a href="#0" class="nav-close" title="close"><span>Close</span></a>
+                
+                <ul class="nav-options">
+                    <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+					<li><a class="smoothscroll"  href="#plot" title="Plot">Plot</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#characters" title="characters">Characters</a></li>
+                    <li><a class="smoothscroll"  href="#items" title="items">Items</a></li>
+                    <li><a class="smoothscroll"  href="#weapons" title="works">Weapons</a></li>
+                    <li><a class="smoothscroll"  href="#media" title="media">Media</a></li>
+                    <li><a class="smoothscroll"  href="#community" title="contact">Community</a></li>
+                </ul>
+    
+    
+     
 
-	</ul>
-</div>
+            </div>
+
+        </nav> 
+		<div class = "menu">
+            <a class="menu-toggle" href="#0">
+                <span class="fas fa-bars"></span>
+            </a>
+			<a class="smoothscroll"  href="#home"><img id = "logo" src="images/sorlogo.png" alt="home"></a>
+
+        </div>
 
      <section id="home" class="home">
 
@@ -158,10 +181,202 @@
 				<img id="adam" src="images/characters/adam.gif" data-toggle="modal" data-target="#adamModal">
 			</div>
 			<div data-aos="fade-up-left">
-				<img id="bosses" src="images/bosses/bosses.gif" data-toggle="modal" data-target="#adamModal">
+				<img id="bosses" src="images/bosses/bosses.gif" data-toggle="modal" data-target="#bossesModal">
 				<h3>BOSSES</h3>
 			</div>
         </div>
+		 <div class="modal fade" id="axelModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">AXEL STONE</h2>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  
+				</div>
+				<div class="modal-body">
+				  <p>Axel is commonly considered the most "well-rounded" character in the series, and easiest to use due to his simple multiple hit special attacks. </p>
+			   
+				<div class= "signatureMoves">
+					<h3 >Signature Moves</h3>
+					<ul class = "list-unstyled">
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img src="images/characters/axelMove1.gif" >
+								</div>
+								<div class = "move-text">
+										<b>Grand Upper:</b><br> Axel pulls off a (strong) sliding uppercut into the enemy.
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id= "move2"  src="images/characters/axelMove2.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Dragon Smash:</b><br> Axel pulls off a quick barrage of punches followed by an uppercut.
+								</div>
+							</div>
+						</li>
+						<hr>
+						
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id= "move3" src="images/characters/axelMove3.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Dragon Wing:</b><br> Axel swings his fist in a circular motion, knocking down surrounding enemies.
+								</div>
+							</div>
+						</li>
+						<hr>
+
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id= "move4" src="images/characters/axelMove4.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Grand Hook:</b><br> One of Axel's upgraded moves, is essentially a Grand Upper into a 360 degree Dragon Wing. Can be finished off with an uppercut.
+								</div>
+							</div>					
+						</li>
+					</ul>
+				</div>
+				 </div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			  
+			</div>
+		  </div>
+  
+	 <div class="modal fade" id="blazeModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+				<h2 class="modal-title">Blaze Fielding</h2>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			<p> A former British police detective who also worked as a private eye. Her specialty is Judo, which gives her a more powerful 'throw' move than the other characters. With balanced attributes and solid fighting techniques. </p>       
+			<div class= "signatureMoves">
+				<h3 >Signature Moves</h3>
+				<ul class = "list-unstyled">
+					<li>
+						<div class = "move">
+							<div class = "move-img">
+								<img id ="move1" src="images/characters/blazeMove1.gif" >
+							</div>
+							<div class = "move-text">
+									<b>Embukyaku:</b><br> Blaze perfoms a cartwheel kick which knocks down surrounding enemies and allows her to dodge their attack.
+							</div>
+						</div>
+					</li>
+					<hr>
+					<li>
+						<div class = "move">
+							<div class = "move-img">
+								<img id= "move2"  src="images/characters/blazeMove2.gif" >
+							</div>
+							<div class = "move-text">
+								<b>Kikou Shou:</b><br> Blaze projects a powerful short-range burst of energy which gets stronger (and more hits in) the closer the enemies are to the attack.
+							</div>
+						</div>
+					</li>
+					<hr>
+					
+					<li>
+						<div class = "move">
+							<div class = "move-img">
+								<img id= "move3" src="images/characters/blazeMove3.gif" >
+							</div>
+							<div class = "move-text">
+								<b>Vertical Slash:</b><br> Blaze performs a forward somersault in order to crush enemies with her fist.
+
+							</div>
+						</div>
+					</li>
+					<hr>
+
+					<li>
+						<div class = "move">
+							<div class = "move-img">
+								<img id= "move4" src="images/characters/blazeMove4.gif" >
+							</div>
+							<div class = "move-text">
+								<b>Subliming Double Slash:</b><br>  One of Blaze's upgraded moves, she performs a ranged somersault that strikes enemies down with multiple hits. Can be completed by a long-ranged slide kick.
+							</div>
+						</div>					
+					</li>
+				</ul>
+			</div>
+			 </div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
+	  
+		<div class="modal fade" id="adamModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+				<h2 class="modal-title">ADAM HUNTER</h2>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <p>Adam uses a form of boxing with a large amount of kicks added into his moveset. Slower but stronger character and has minimal character development past that. His movelist is very limited, with no real "special moves </p>
+		   
+			<div class= "signatureMoves">
+				<h3 >Signature Moves</h3>
+				<ul class = "list-unstyled">
+					<li>
+						<div class = "move">
+							<div class = "move-img">
+								<img id = "move1" src="images/characters/adamMove1.gif" >
+							</div>
+							<div class = "move-text">
+									<b>Uppercut:</b><br> Adam pulls off an uppercut that, depending on range, can launch a char slightly, or fully, into the air.
+							</div>
+						</div>
+					</li>
+					<hr>
+					<li>
+						<div class = "move">
+							<div class = "move-img">
+								<img id = "move2" src="images/characters/adamMove2.gif" >
+							</div>
+							<div class = "move-text">
+								<b>Roundhouse Kick:</b><br> Adam performs a roundhouse kick, that has good range. If a high uppercut is performed right before, this move will launch enemies across the screen. This effect wont work on Boss characters or Player characters.
+
+							</div>
+						</div>
+					</li>	
+				</ul>
+			</div>
+			 </div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
 	</section> 
 	<section id='items' class="items">
 
