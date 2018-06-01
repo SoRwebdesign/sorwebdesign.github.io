@@ -436,33 +436,7 @@
     margin-bottom: 0;
 }
 /* HEADERS RESPONSIVE */
-@media only screen and (max-width: 1200px) {
 
-	.headers h3 {
-		font-size: 15px;
-
-	}
-
-	.headers h1 {
-
-		font-size: 60px;
-
-	}
-}
-
-@media only screen and (max-width: 800px) {
-
-	.headers h3 {
-		font-size: 13px;
-
-	}
-
-	.headers h1 {
-
-		font-size: 50px;
-
-	}
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -478,18 +452,7 @@
 	}
 }
 
-@media only screen and (max-width: 400px) {
-	.headers h3 {
-		font-size: 11px;
 
-	}
-
-	.headers h1 {
-
-		font-size: 38px;
-
-	}
-}
 
 /*ABOUT*/
 

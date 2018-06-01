@@ -4,6 +4,7 @@
 		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
@@ -18,15 +19,22 @@
 </head>
 <body>
 
-<div class="topnav">
+<nav class="topnav">
 	<ul>
-		<li><a class="smoothscroll"  href="#about" title="about">About</a></li>
 		<li><a class="smoothscroll"  href="#plot" title="Plot">Plot</a></li>
+		<li><a class="smoothscroll"  href="#about" title="about">About</a></li>
 		<li><a class="smoothscroll"  href="#characters" title="characters">Characters</a></li>
-		<li><a href="#about"><img id = "logo" src="images/sorlogo.png" alt="home"></a></li>
+		<li><a class="smoothscroll"  href="#home"><img id = "logo" src="images/sorlogo.png" alt="home"></a></li>
 		<li><a class="smoothscroll"  href="#items" title="items">Items</a></li>
 		<li><a class="smoothscroll"  href="#media" title="media">Media</a></li>
 		<li><a class="smoothscroll"  href="#community" title="contact">Community</a></li>
+	</ul>
+</nav>
+<div class="topnav-mobile">
+	<ul>
+		<li><a class="menu-toggl" href="#0"><span class="fas fa-bars"></span></a></li>
+		<li><a class="smoothscroll"  href="#home"><img id = "logo" src="images/sorlogo.png" alt="home"></a></li>
+
 	</ul>
 </div>
 
@@ -34,11 +42,11 @@
 
 
 			<div class="home-content">
-				<div class="big-box">
+				<div class="big-box" data-aos="fade-up">
 					<div class="small-box">
-						<h3  data-aos="fade-up">Streets of Rage</h3>
+						<h3>Streets of Rage</h3>
 
-						<h4 style = "color:white;" data-aos="fade-up-left">
+						<h4 style = "color:white;" >
 							Streets of Rage, known as Bare Knuckle:<br>
 							is a beat 'em up video game released by <br>
 							Sega for the Sega Mega Drive in 1991<span id= "point">.<span>
@@ -47,24 +55,24 @@
 					</div>
 				</div>
 				<div class="big-box2">
-					<div class="small-box">
+					<div class="small-box" data-aos="fade-up-left">
 						
 						<div class="small-box-image">
 						
 						</div>
 						<div class="small-box-desc">
 							<h3  data-aos="fade-up">Know the Story</h3>
-							<a href="#plot">Learn More >></a>
+							<a href="#plot">Learn More »</a>
 						</div>
 					</div>
-					<div class="small-box">
+					<div class="small-box" data-aos="fade-up-left">
 						<div class="small-box-image">
 						     <img src="images/punch.gif" data-aos="fade-left">
 							 <h1>FACTS</h1>
 						</div>
 						<div class="small-box-desc">
 							<h3  data-aos="fade-up">Some Facts To Get You Started</h3>
-							<a href="#about">Learn More >></a>
+							<a href="#about">Learn More »</a>
 						</div>
 					</div>
 				</div>
@@ -140,17 +148,16 @@
         </div>
 
         <div class="char-content" data-aos="fade-up">
-            <div>
+            <div data-aos="fade-up-right">
 				<img id = "axel" src="images/characters/axel.gif" data-toggle="modal" data-target="#axelModal">
-				 </div>
-				             <div>
-
+			</div>
+			<div data-aos="fade-up-left">
 				<img id = "blaze" src="images/characters/blaze.gif" data-toggle="modal" data-target="#blazeModal">
-				 </div>
-			<div>
+			</div>
+			<div data-aos="fade-up-right">
 				<img id="adam" src="images/characters/adam.gif" data-toggle="modal" data-target="#adamModal">
 			</div>
-			<div>
+			<div data-aos="fade-up-left">
 				<img id="bosses" src="images/bosses/bosses.gif" data-toggle="modal" data-target="#adamModal">
 				<h3>BOSSES</h3>
 			</div>
@@ -312,7 +319,7 @@
             <h1 data-aos="fade-up">Check out the Artwork, the Soundtrack, the Promotional Material.</h1>
         </div>
 
-			<div class="media-content" >
+			<div class="media-content" data-aos="fade-up" >
 				<div data-aos="fade-up-left">
 				<a class="venobox" href="images/SoR_Art_1.jpg">
 					<img src="images/SoR_Art_1.jpg" alt="">
@@ -382,7 +389,7 @@
                     </div>
 				</div>
 				<div class="slide">	
-					<p>treets of Rage is a game of mixed emotion but with constant action. An energetic start follows the solemn opening when booting and punching through the streets, neutralising rowdy street urchins.</p>
+					<p>Streets of Rage is a game of mixed emotion but with constant action. An energetic start follows the solemn opening when booting and punching through the streets, neutralising rowdy street urchins.</p>
                     <img src="images/avatars/user-02.jpg">
                     <div>
                         <span class="nome">Shaun Musgrave</span> 
@@ -397,7 +404,14 @@
         <div class="footer-main">
 
 			<div class="footer-logo">
-			   <img src="images/sorlogo.png">
+				<div class="logos">
+					<div>
+					   <img src="images/sega.gif">
+					</div>
+					<div>
+					   <img src="images/sorlogo.png">
+					</div>
+				</div>
                  <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut. </p>
 			</div>
             
