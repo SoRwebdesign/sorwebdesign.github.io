@@ -1,5 +1,6 @@
 @import url("fonts.css");
 
+/* AUTHOR João Amado */
 body {
 	color:white;
 	font-family: 'Press Start 2P';font-size: 20px;
@@ -15,6 +16,7 @@ body {
 	filter: blur(0.6px);
 	filter: brightness(70%);
 	border: 2px solid black;
+	font-size:18px;
 
 }
 
@@ -154,7 +156,7 @@ body {
 	}
 	#box4 h1{
 		margin-top:70%;
-		margin-left:-90%;
+		margin-left:-88%;
 
 	}
 	#box7 h1{
