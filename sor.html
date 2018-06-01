@@ -25,10 +25,10 @@
             <nav class="nav">
 
             <div class="nav-content">
-                <h3>Navigation</h3> <a href="#0" class="nav-close" title="close"><span>Close</span></a>
+                <h3>Navigation</h3> <a href="#0" class="nav-close" title="close"><span></span></a>
                 
                 <ul class="nav-options">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll"  href="#plot" title="Plot">Plot</a></li>
                     <li><a class="smoothscroll"  href="#characters" title="characters">Characters</a></li>
@@ -80,7 +80,7 @@
                     Sega for the Sega Mega Drive in 1991<span id= "point">.<span>
                 </h2>
 
-                <div class="home-content-button" data-aos="fade-up">
+                <div class="home-content-button" data-aos="fade-up" >
                     <a href="#about" class="smoothscroll btn">
                         LEARN MORE
                     </a>
@@ -403,7 +403,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img src="images/items/apple.png" style= "width:50px;" >
+                    <img src="images/items/apple.png">
                 </div>
                 <div class="items-text">
                     <h3>Apple</h3>
@@ -414,7 +414,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img src="images/items/beef.png" style= "width:50px;" >
+                    <img src="images/items/beef.png">
                 </div>
                 <div class="items-text">
                     <h3 >Beef</h3>
@@ -425,7 +425,7 @@
 
             <div class="items-item" data-aos="fade-up">
                <div class="items-icon">
-                    <img  src="images/items/1up.png" style= "width:50px;" >
+                    <img  src="images/items/1up.png">
                 </div>
                 <div class="items-text">
                     <h3>1UP</h3>
@@ -436,7 +436,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img src="images/items/special.png" style= "width:50px;" >
+                    <img src="images/items/special.png">
                 </div>
                 <div class="items-text">
                     <h3>Special</h3>
@@ -447,7 +447,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img  src="images/items/cashbag.png" style= "width:50px;" >
+                    <img  src="images/items/cashbag.png">
                 </div>
                 <div class="items-text">
                     <h3>Cash Bag</h3>
@@ -458,7 +458,7 @@
     
             <div class="items-item" data-aos="fade-up">
                  <div class="items-icon">
-                    <img src="images/items/goldbar.png" style= "width:50px;" >
+                    <img src="images/items/goldbar.png">
                 </div>
                 <div class="items-text">
                     <h3 >Gold Bars</h3>
@@ -483,7 +483,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img src="images/weapons/bottle.png" style= "width:50px;" >
+                    <img src="images/weapons/bottle.png">
                 </div>
                 <div class="items-text">
                     <h3>Bottle</h3>
@@ -494,7 +494,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img src="images/weapons/knife.png" style= "width:50px;" >
+                    <img src="images/weapons/knife.png">
                 </div>
                 <div class="items-text">
                      <h3>Knife</h3>
@@ -505,7 +505,7 @@
 
             <div class="items-item" data-aos="fade-up">
                <div class="items-icon">
-                    <img  src="images/weapons/leadpipe.png" style= "width:50px;" >
+                    <img  src="images/weapons/leadpipe.png">
                 </div>
                 <div class="items-text">
 					<h3 >Lead Pipe</h3>
@@ -516,7 +516,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img src="images/weapons/bat.png" style= "width:50px;" >
+                    <img src="images/weapons/bat.png">
                 </div>
                 <div class="items-text">
 					<h3>Baseball Bat</h3>
@@ -527,7 +527,7 @@
 
             <div class="items-item" data-aos="fade-up">
                 <div class="items-icon">
-                    <img  src="images/weapons/pepper.png" style= "width:50px;" >
+                    <img  src="images/weapons/pepper.png">
                 </div>
                 <div class="items-text">
                      <h3>Pepper Spray</h3>
@@ -543,7 +543,6 @@
 
   <section id="bosses" class="home" data-parallax="scroll" data-image-src="images/bosses/bosses.gif" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
-        <div class="overlay"></div>
 
         <div class="home-content">
 
@@ -551,8 +550,8 @@
 
                 <h3>Who's the Boss?</h3>
 
-                 <div class="home-content-button">
-                    <a href="#" class="smoothscroll btn">
+                 <div class="home-content-button" data-toggle="modal" data-target="#bossesModal">
+                    <a class="btn" data-toggle="modal" data-target="#bossesModal">
                         Know More
                     </a>
                 </div>
@@ -561,6 +560,100 @@
 
 
         </div>
+		<div class="modal fade" id="bossesModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">BOSSES</h2>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  
+				</div>
+				<div class="modal-body">			   
+				<div class= "signatureMoves">
+					<ul class = "list-unstyled">
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move1" src="images/bosses/antonio.gif" >
+								</div>
+								<div class = "move-text">
+										<b>Antonio:</b><br>Antonio is the boss of Round 1. As his name implies, he wields a large boomerang and can sometimes kick. Antonio also appears in Round 8.
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move2" src="images/bosses/souther.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Souther:</b><br>Souther is the boss of Round 2. He has claws attached to his gloves and can lunge at the player from far away. He can also counter the players' flying kicks with a slashing attack that leaves after images (it is possible to hit him with a flying kick but difficult to do and not recommended). In Round 6, two Souther will appear as the boss.
+
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move3" src="images/bosses/abadede.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Abadede:</b><br>Abadede is the boss of Round 3. He is a muscular brute who can charge and punch from long distances. He also appears in Round 5, and Round 8.
+
+								</div>
+							</div>
+						</li>	
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move4" src="images/bosses/bongo.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Bongo:</b><br>Bongo is the boss of Round 4. He is a big-bellied fighter who can breath fire and walk quickly across the screen diagonally. A player will take damage if he or she attempts to throw him. He also appears in Round 6, and Round 8.
+
+								</div>
+							</div>
+						</li>	
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move5" src="images/bosses/yasha.gif" >
+								</div>
+								<div class = "move-text">
+									<b>	Onihime and Yasha:</b><br>Onihime and Yasha are twins. Because they attack together and are always jumping around, they can be difficult to defeat. Their most common attacks are kicking in midair and grappling. The sprites used for this boss are actually identical to Blaze's set, albeit with different colour palettes.
+
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move6" src="images/bosses/mrx.gif" >
+								</div>
+								<div class = "move-text">
+									<b>	Mr. X:</b><br>Mr.X is the final boss and head of the syndicate. He is the main antagonist throughout the series. Generally he carries around a machine gun when fighting or sits on his throne sicking goons on the player.
+
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+				 </div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			  
+			</div>
+		</div>
 	</section> 
 	
 	<section id="media" class="media" >
@@ -572,7 +665,7 @@
         </div>
         <div class="media-white">
 
-			<div class="media-content" >
+			<div class="media-content" data-aos="fade-up" >
 				<div data-aos="fade-up-left">
 				<a class="venobox" href="images/SoR_Art_1.jpg">
 					<img src="images/SoR_Art_1.jpg" alt="">
@@ -589,8 +682,8 @@
 					</a>
 				</div>
 				<div data-aos="fade-up">
-					<a href="images/sorlogo.png"  class="venobox" >
-						<img src="images/sorlogo.png" alt="">
+					<a href="images/comando.jpg"  class="venobox" >
+						<img src="images/comando.jpg" alt="">
 					</a>
 				</div>
 				<div data-aos="fade-left">
@@ -602,18 +695,17 @@
 					<a class="venobox" data-vbtype="video" data-autoplay="true" href="https://www.youtube.com/watch?v=5Lp0GJNTRV0">
 						<img src="images/sor_soundtrack.jpg" alt="">
 					</a>
-
-				</div>
+				</div>			
 				<div data-aos="fade-up">
-					<a class="venobox" data-vbtype="video" data-autoplay="true" href="https://www.youtube.com/watch?v=H2TsOs86ZHA">
-						<img src="images/trailer.jpg" alt="">        
+					<a href="images/sorlogo.png"  class="venobox" >
+						<img src="images/sorlogo.png" alt="">
 					</a>
 				</div>
 				<div data-aos="fade-up">
-					<a href="images/comando.jpg"  class="venobox" >
-						<img src="images/comando.jpg" alt="">
-					</a>
-				</div>				
+					<iframe
+					src="https://www.youtube.com/embed/9MYrf4ou6X8" frameborder="0" allowfullscreen>>
+					</iframe>
+				</div>					
 
 			</div>
 		</div>

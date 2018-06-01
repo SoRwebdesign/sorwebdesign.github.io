@@ -7,22 +7,13 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.3/venobox.min.css" integrity="sha256-aIUopUhulONZ3xR+zS2HnUF+pTbxAXIYuzd//lwefvk=" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 		<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/sor2.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-<script>
-  var show = function() {
-     console.log("Orientation type is " + screen.orientation.type);
-     console.log("Orientation angle is " + screen.orientation.angle);
-  }
-	screen.orientation.lock('portrait');
-  screen.orientation.addEventListener("change", show);
-  window.onload = show;
-</script>
+		<title>Streets of Rage</title>
 
 </head>
 <body>
@@ -54,12 +45,7 @@
                     <li><a class="smoothscroll"  href="#media" title="media">Media</a></li>
                     <li><a class="smoothscroll"  href="#community" title="contact">Community</a></li>
                 </ul>
-    
-    
-     
-
             </div>
-
         </nav> 
 		<div class = "menu">
             <a class="menu-toggle" href="#0">
@@ -188,9 +174,9 @@
 			<div data-aos="fade-up-right">
 				<img id="adam" src="images/characters/adam.gif" data-toggle="modal" data-target="#adamModal">
 			</div>
-			<div data-aos="fade-up-left">
-				<img id="bosses" src="images/bosses/bosses.gif" data-toggle="modal" data-target="#bossesModal">
-				<h3>BOSSES</h3>
+			<div data-aos="fade-up-left" data-toggle="modal" data-target="#bossesModal">
+				<img id="bosses" src="images/bosses/bosses.gif">
+				<h3 >BOSSES</h3>
 			</div>
         </div>
 		 <div class="modal fade" id="axelModal" role="dialog">
@@ -337,54 +323,148 @@
 		</div>
 	  </div>
 	  
-		<div class="modal fade" id="adamModal" role="dialog">
-		<div class="modal-dialog">
-		
-		  <!-- Modal content-->
-		  <div class="modal-content">
-			<div class="modal-header">
-				<h2 class="modal-title">ADAM HUNTER</h2>
-			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+	    <div class="modal fade" id="adamModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">ADAM HUNTER</h2>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  
+				</div>
+				<div class="modal-body">
+				  <p>Adam uses a form of boxing with a large amount of kicks added into his moveset. Slower but stronger character and has minimal character development past that. His movelist is very limited, with no real "special moves </p>
+			   
+				<div class= "signatureMoves">
+					<h3 >Signature Moves</h3>
+					<ul class = "list-unstyled">
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move1" src="images/characters/adamMove1.gif" >
+								</div>
+								<div class = "move-text">
+										<b>Uppercut:</b><br> Adam pulls off an uppercut that, depending on range, can launch a char slightly, or fully, into the air.
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move2" src="images/characters/adamMove2.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Roundhouse Kick:</b><br> Adam performs a roundhouse kick, that has good range. If a high uppercut is performed right before, this move will launch enemies across the screen. This effect wont work on Boss characters or Player characters.
+
+								</div>
+							</div>
+						</li>	
+					</ul>
+				</div>
+				 </div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
 			  
 			</div>
-			<div class="modal-body">
-			  <p>Adam uses a form of boxing with a large amount of kicks added into his moveset. Slower but stronger character and has minimal character development past that. His movelist is very limited, with no real "special moves </p>
-		   
-			<div class= "signatureMoves">
-				<h3 >Signature Moves</h3>
-				<ul class = "list-unstyled">
-					<li>
-						<div class = "move">
-							<div class = "move-img">
-								<img id = "move1" src="images/characters/adamMove1.gif" >
-							</div>
-							<div class = "move-text">
-									<b>Uppercut:</b><br> Adam pulls off an uppercut that, depending on range, can launch a char slightly, or fully, into the air.
-							</div>
-						</div>
-					</li>
-					<hr>
-					<li>
-						<div class = "move">
-							<div class = "move-img">
-								<img id = "move2" src="images/characters/adamMove2.gif" >
-							</div>
-							<div class = "move-text">
-								<b>Roundhouse Kick:</b><br> Adam performs a roundhouse kick, that has good range. If a high uppercut is performed right before, this move will launch enemies across the screen. This effect wont work on Boss characters or Player characters.
-
-							</div>
-						</div>
-					</li>	
-				</ul>
-			</div>
-			 </div>
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		  </div>
-		  
 		</div>
-	  </div>
+	    <div class="modal fade" id="bossesModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">BOSSES</h2>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  
+				</div>
+				<div class="modal-body">			   
+				<div class= "signatureMoves">
+					<ul class = "list-unstyled">
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move1" src="images/bosses/antonio.gif" >
+								</div>
+								<div class = "move-text">
+										<b>Antonio:</b><br>Antonio is the boss of Round 1. As his name implies, he wields a large boomerang and can sometimes kick. Antonio also appears in Round 8.
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move2" src="images/bosses/souther.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Souther:</b><br>Souther is the boss of Round 2. He has claws attached to his gloves and can lunge at the player from far away. He can also counter the players' flying kicks with a slashing attack that leaves after images (it is possible to hit him with a flying kick but difficult to do and not recommended). In Round 6, two Souther will appear as the boss.
+
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move3" src="images/bosses/abadede.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Abadede:</b><br>Abadede is the boss of Round 3. He is a muscular brute who can charge and punch from long distances. He also appears in Round 5, and Round 8.
+
+								</div>
+							</div>
+						</li>	
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move4" src="images/bosses/bongo.gif" >
+								</div>
+								<div class = "move-text">
+									<b>Bongo:</b><br>Bongo is the boss of Round 4. He is a big-bellied fighter who can breath fire and walk quickly across the screen diagonally. A player will take damage if he or she attempts to throw him. He also appears in Round 6, and Round 8.
+
+								</div>
+							</div>
+						</li>	
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move5" src="images/bosses/yasha.gif" >
+								</div>
+								<div class = "move-text">
+									<b>	Onihime and Yasha:</b><br>Onihime and Yasha are twins. Because they attack together and are always jumping around, they can be difficult to defeat. Their most common attacks are kicking in midair and grappling. The sprites used for this boss are actually identical to Blaze's set, albeit with different colour palettes.
+
+								</div>
+							</div>
+						</li>
+						<hr>
+						<li>
+							<div class = "move">
+								<div class = "move-img">
+									<img id = "move6" src="images/bosses/mrx.gif" >
+								</div>
+								<div class = "move-text">
+									<b>	Mr. X:</b><br>Mr.X is the final boss and head of the syndicate. He is the main antagonist throughout the series. Generally he carries around a machine gun when fighting or sits on his throne sicking goons on the player.
+
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+				 </div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			  
+			</div>
+		</div>
 	</section> 
 	<section id='items' class="items">
 
