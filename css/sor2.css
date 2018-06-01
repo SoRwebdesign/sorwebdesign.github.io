@@ -1,0 +1,724 @@
+@import url("fonts.css");
+
+body {
+	color:white;
+	background-color: #232326;
+	display:flex;
+	flex-direction:column;
+	}
+.topnav{
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 18px;
+    line-height: 1.8;
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:999;
+}
+.topnav:hover{
+	background-color: rgba(0,0,0,1);
+
+}
+.topnav ul{
+	display:flex;
+	flex-direction:row;
+	width:80%;
+	margin: 0 auto;
+	list-style-type: none;
+}
+.topnav ul li{
+	margin: 2% auto;
+	width:10%;
+	margin-left:5%;
+}
+.topnav ul li:nth-child(7){
+
+	margin-right:2%;
+}
+.topnav ul li:nth-child(4){
+margin-top:1%;
+	width:25%;
+}
+.topnav ul li:nth-child(1){
+
+	margin-left:0%;
+}
+.topnav ul li a{
+text-decoration: none;
+color:white;
+
+}
+#logo{
+	margin-left:5%;
+	width:200px;
+
+}
+/*HOME*/
+.home{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	background-image:url("../images/pattern.png"); 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	background-color: #1e1e21;
+
+}
+.home-content{
+	width:90%;
+	margin:0 auto;
+	margin-top:9%;
+	display:flex;
+	flex-direction:row;
+}
+	
+.big-box{
+	background-image:url("../images/sor_art_2.jpg"); 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	background-position:70% 30%;
+	width:42.5%;
+	height:73vh;
+	margin-left:5%;
+}
+.home-content .big-box .small-box{
+	background-color: #1e1e21;
+	height:35%;
+	width:80%;
+	margin-left:5%;
+	margin-top:57%;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;
+	background-image:url("../images/texture.jpg"); 
+	background-position:100% 100%
+
+
+}
+.home-content .big-box2{
+	margin-left:5%;
+	height:70vh;
+	width:42.5%;
+}
+
+.home-content .big-box2 .small-box{
+	background-color: #1e1e21;
+	height:45%;
+	width:100%;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;
+	background-image:url("../images/texture.jpg"); 
+	background-position:100% 100%;
+
+}
+.home-content .big-box .small-box h4{
+	font-family: 'lora-regular',sans-serif;
+	line-height:1.3;
+	letter-spacing:1px;
+	font-size:18px;
+	padding:10px 10px;
+
+}
+.home-content .big-box .small-box h3{
+	padding:10px 10px;
+	line-height:1.7;
+	letter-spacing:1px;
+	font-family: 'Bowlby One SC', cursive;
+
+
+}
+.home-content .big-box2 .small-box:nth-child(2){
+	margin-top:10%;
+
+}
+.home-content .big-box2 .small-box .small-box-image{
+	height:70%;
+	width:100%;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;
+
+}
+.home-content .big-box2 .small-box .small-box-desc{
+	height:30%;
+	width:100%;
+	padding-left:2%;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;
+	background-image:url("../images/texture.jpg"); 
+	background-position:100% 100%;
+}
+.home-content .big-box2 .small-box:nth-child(1) .small-box-image{
+
+	background-image:url("../images/city.gif"); 
+	background-position:50% 8%;
+}
+.home-content .big-box2 .small-box:nth-child(2) .small-box-image{
+display:flex;
+flex-direction:row;
+ background-color:black;
+}
+.home-content .big-box2 .small-box:nth-child(2) .small-box-image img{
+	margin-left:30%;
+	width:20%;
+}
+.home-content .big-box2 .small-box:nth-child(2) .small-box-image h1{
+	margin-left:2%;
+	margin-top:10%;
+	font-size:40px;
+	width:20%;
+	
+	font-family: 'Bowlby One SC', cursive;
+
+}
+.small-box-desc h3{
+	font-family: 'lora-regular',sans-serif;
+margin-bottom:2%;
+}
+.small-box-desc a{
+	font-size:13px;
+	color:#fcde00;
+	text-decoration:none;
+	font-family: 'Bowlby One SC', cursive;
+	margin-top:-80%;
+}
+
+/*HEADERS*/
+
+.headers{
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: -2%;
+     color: white;
+    
+}
+.headers h3 {
+	font-family: 'lora-regular',sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ff2323;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.headers h1 {
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 70px;
+    line-height: 1.3;
+    letter-spacing: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*PLOT*/
+.plot{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	background-color: #1e1e21;
+ 
+}
+
+.plot-content{
+	width:90%;
+	margin:0 auto;
+	margin-top:9%;
+	display:flex;
+	flex-direction:row;
+}
+.plot-content .big-box:nth-child(1){
+	background-image:url("../images/city.gif"); 
+		box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;
+	height:50vh;
+
+}
+.plot-content .big-box:nth-child(2){
+	background-image:url("../images/texture.jpg");
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;	
+	height:50vh;
+
+}
+.typewriter{
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 25px;
+    line-height: 1.3;
+    letter-spacing: 4px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+/*ABOUT*/
+.about{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:105vh;
+	background-image:url("../images/pattern_inv.png"); 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	background-color: #1e1e21;
+
+}
+
+.about-content{
+	width:90%;
+	margin:0 auto;
+	margin-top:9%;
+
+}
+.big-wide-box{
+	background-image:url("../images/texture.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;	
+	height:60vh;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+
+}
+
+.big-wide-box .box{
+	width:40%;
+	height:100%;
+}
+
+.big-wide-box .box:nth-child(2){
+	border-right:1px solid gray;
+
+}
+
+.big-wide-box .box h4{
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 21px;
+    line-height: 1.3;
+    letter-spacing: 4px;
+    margin-top: 4%;
+    margin-left: 6%;
+	text-align:center;
+}
+.big-wide-box .box img{
+	width: 60%;
+	margin-left:20%;
+}
+.about-stats {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+	flex-wrap:wrap;
+	width:20%;
+	
+}
+.stats-col {
+    padding: 40px;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.stats-col:last-child {
+    border-right: none;
+	  margin-left:3%;
+}
+.stats-col:nth-child(2){
+    border-right: none;
+}
+.stats-col:nth-child(3){
+    margin-left:5%;
+	padding-right:13%;
+}
+.stats-count {
+		font-family: 'Bowlby One SC', cursive;
+
+    font-size:50px;
+    line-height: 1;
+    color: white;
+}
+
+.about-stats h5 {
+	font-family: 'lora-regular',sans-serif;
+    margin-top: 20px;
+    color: #fcde00;
+    font-size: 25px;
+    line-height: 1.3;
+    position: relative;
+}
+/*CHARACTERS*/
+.characters{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	background-color:#1a1a1a;
+	background-image:url("../images/pattern.png"); 
+	background-repeat:no-repeat; 
+	background-size:cover; 
+}
+.char-content{
+	width:90%;
+	margin:0 auto;
+	margin-top:9%;
+	display:flex;
+	flex-direction:row;
+}
+.char-content div{
+	cursor:pointer;
+	background-image:url("../images/texture.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;	
+	width:18%;
+	margin-left:2%;
+}
+.char-content div:nth-child(4){
+width:35%;
+margin-top:5%;
+margin-bottom:5%;
+
+}
+.char-content div:nth-child(1){
+
+	margin-left:0%;
+}
+.char-content div img{
+	margin-left:5%;
+	width:90%;
+}
+#bosses{
+	margin-top:5%;
+
+}
+.char-content div:nth-child(4) h3 {
+	margin-left:5%;
+	padding-top:1%;
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 0;
+	color:#fcde00;
+    margin-bottom: 0;
+}
+/*Items*/
+.items{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	background-color:#1a1a1a;
+
+}
+.items .headers{
+	margin-top:5%;
+}
+.items-content{
+	width:90%;
+	margin:0 auto;
+	margin-top:9%;
+	display:flex;
+	flex-direction:row;
+}
+.items-item{
+	background-image:url("../images/texture.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;	
+	width:15%;
+	height:50vh;
+	margin-left:2%;
+}
+.items-item:nth-child(1){
+
+	margin-left:0%;
+}
+.items-icon{
+	width:60%;
+	margin-left:20%;
+}
+.items-icon img{
+	width:100%;
+}
+.items-content .items-item:nth-child(3) .items-icon img{
+	width:120%;
+	margin-top:25%;
+}
+.items-content .items-item:nth-child(4) .items-icon img{
+	width:120%;
+	margin-top:25%;
+}
+.items-content .items-item:nth-child(5) .items-icon img{
+	width:70%;
+	margin-left:20%;
+}
+.items-content .items-item:nth-child(6) .items-icon img{
+	width:102%;
+	margin-top:5%;
+	margin-bottom:-10%;
+	
+}
+.items-text{
+	text-align:center;
+}
+.items-text h3{
+	font-family: 'Bowlby One SC', cursive;
+    font-size: 20px;
+    letter-spacing: 4px;
+	color:#fcde00;  
+}
+.items-text p{
+	font-family: 'lora-regular',sans-serif;
+	line-height:1.3;
+	font-size:15px;
+	padding:10px 10px;
+}
+/*WEAPONS*/
+.weapons{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	background-color:#1a1a1a;
+		background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url("../images/pattern2.png");
+
+}
+.weapons .headers{
+	margin-top:5%;
+}
+.weapons-content{
+	width:90%;
+	margin:0 auto;
+	margin-top:9%;
+	display:flex;
+	flex-direction:row;
+}
+.weapons .items-item{
+	width:20%;
+}
+.weapons-content .items-item:nth-child(2) .items-icon img{
+	width:120%;
+	margin-top:14%;
+}
+.weapons-content .items-item:nth-child(4) .items-icon img{
+	margin-top:5%;
+}
+.weapons-content .items-item:nth-child(5) .items-icon img{
+	margin-top:5%;
+	margin-left:8%;
+}
+/*MEDIA*/
+.media{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:320vh;
+	background-color:#17171a;
+	background-image:url("../images/pattern_inv.png"); 
+	background-repeat:no-repeat; 
+	background-size:cover;
+}
+.media .headers{
+	margin-top:5%;
+}
+.media-content{
+	width:70%;
+	margin:0 auto;
+	margin-top:9%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	background-image:url("../images/texture.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;	
+}
+.media-content div{
+	width:49%;
+}
+.media-content div:nth-child(1){
+	margin-left:1%;
+}
+.media-content div:nth-child(1){
+	margin-top:1%;
+}
+.media-content div:nth-child(2){
+	margin-top:1%;
+}
+.media-content div:nth-child(3){
+	margin-top:-9%;
+	margin-left:1%;
+}
+
+.media-content div:nth-child(5){
+	margin-left:1%;
+	margin-top:-14%;
+}
+
+.media-content div:nth-child(7){
+	margin-left:1%;
+	margin-top:-17%;
+}
+.media-content div:nth-child(8){
+	width:80%;
+	margin-left:10%;
+
+}
+.media-content div:nth-child(8) iframe{
+	width:100%;
+	
+	margin-bottom:1%;
+	height:500px;
+
+}
+.media-content div a{
+	width:100%;
+}
+.media-content div a img{
+	width:100%;
+}
+
+/*COMMUNITY*/
+.community{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:120vh;
+	background-color:#232326;
+	background-image:url("../images/pattern_inv2.png"); 
+
+}
+.community .headers{
+	margin-top:5%;
+}
+.community-content{
+	width:80%;
+	margin:0 auto;
+	margin-top:9%;
+	background-image:url("../images/texture.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 0 25px;
+    box-sizing: border-box;	
+}
+.sliders{
+	color:white;
+}
+.sliders button{
+	width:20%;
+	color:white;
+}
+.slide p{
+    font-family: "lora-regular", serif;
+    font-size: 25px;
+    line-height: 1.7;
+    color: gray;
+    margin-top: 5%;
+	text-align:center;
+}
+
+.slide img{
+	border-radius: 50%;
+    margin: 0 auto;
+	width:20%;
+}
+.slide div{
+    margin: 2% auto;
+	text-align:center;
+}
+
+.nome {
+	display:block;
+	font-family: 'Bowlby One SC', cursive;
+    color: white;
+}
+
+.trabalho{
+    font-family: "lora-regular", serif;
+    font-size: 25px;
+	color:white;
+}
+footer{
+	padding-top:10%;
+	background-image:url("../images/pattern2.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color#232326;
+
+}
+
+.footer-main {
+    text-align: left;
+	width:90%;
+	display:flex;
+	flex-direction:row;
+	margin:0 auto;
+}
+.footer-logo{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	}
+.footer-logo p{
+	margin-top:5%;
+	width:80%;
+
+}
+
+.footer-logo img{
+	width:50%;
+	}
+.footer-notify{
+	float:left;
+	width:50%;
+}
+.footer-notify h4{
+	font-family: "montserrat-regular", sans-serif;
+	font-size: 18x;
+	color:white;
+	margin-top:5%;
+}
+.footer-notify p{
+	margin-top:8%;
+}
+.footer-notify input[type=submit] {
+    color: #FFFFFF;
+    background: blue;
+    border-color: #fcde00;
+    padding: 13px 20px;
+	width:35%;
+	
+}
+.footer-notify input[type="email"] {
+    width: 100%;
+    height: 2%;
+	width:60%;
+    padding: 20px 160px 20px 60px;
+    background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1);
+    background-size: 24px 16px, auto;
+    color: white;
+	opacity:0.9;
+	border:none;
+}
+
+.footer-notify input[type="email"]:focus {
+    color: white;
+}
+
+.footer-notify input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+.footer-bottom {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 15px;
+	font-family: "montserrat-regular", sans-serif;
+	padding-bottom:-20%;
+
+}
